@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFFontTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFFontTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock FontSize="20" Name="mTitle" Text="Avalonia.Fonts.Inter font rendering" />
+            <TextBlock FontSize="12" Name="mTextBlock1" Text="Fix issue detected by AnnotateFile"></TextBlock>
+            <TextBlock FontSize="13" Name="mTextBlock2" Text="Fix issue detected by AnnotateFile"></TextBlock>
+            <TextBlock FontSize="14" Name="mTextBlock3" Text="Fix issue detected by AnnotateFile"></TextBlock>
+            <TextBlock Margin="0 20 0 0" FontSize="20" Name="mTitle2" Text="Avalonia.Fluent.Theme font rendering" />
+            <TextBlock FontSize="12" Name="mTextBlock4" Text="Fix issue detected by AnnotateFile"></TextBlock>
+            <TextBlock FontSize="13" Name="mTextBlock5" Text="Fix issue detected by AnnotateFile"></TextBlock>
+            <TextBlock FontSize="14" Name="mTextBlock6" Text="Fix issue detected by AnnotateFile"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
